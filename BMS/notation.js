@@ -76,7 +76,7 @@ class notation {
 	}
 
 	static expandLimit(n) {
-		let s = "(" + Array(n+1).fill(0).join(",") + ")(" + Array(n+1).fill(1).join(",") + ")";
+		let s = "(" + Array(n+1).fill(0).join(",") + "),(" + Array(n+1).fill(1).join(",") + ")";
 		return this.fromString(s);
 	}
 
